@@ -23,10 +23,12 @@ The system will continuously retrieve weather data from the OpenWeatherMap API.<
    git clone https://github.com/Garv-M/AST-RuleEngine-Backend.git
    cd AST-RuleEngine-Backend
 
-2. **Connect your Mongo DB cluster**
+2. **Connect**
+- MongoDB Cluster
+- Java Mail Sender endpoints
    ```bash
    src/main/resources/application.properties
-3. **Run the Backend Server**
+4. **Run the Backend Server**
    ```bash
    mvn spring-boot:run
 
